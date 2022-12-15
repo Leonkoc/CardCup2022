@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: #121212;
+}
+/*.card-container{
+    position: relative;
+    height: 300px;
+    width: 200px;
+    border: 15px rgb(170, 121, 57) solid;
+}*/
+.caixa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+.card-container{
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.9px);
+    -webkit-backdrop-filter: blur(2.9px);
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.76);
+    backdrop-filter: blur(2.9px);
+    -webkit-backdrop-filter: blur(2.9px);
+    margin-top: 20px;
+
+        
+}
+.caracteristicas{
+    text-align: center;
+    margin-top: 10px;
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #121212;
+    color: white;
+    border-radius: 4px;
+    z-index: -1;
+}
+.caracteristicas img{
+    width: 30px;
+}
+.span-color{
+    color: yellow;
+}
+.jogador img{
+    width: 200px;
+    z-index: -1;
+}
+.caixa-2{
+    background: rgb(249,255,0);
+    background: linear-gradient(0deg, rgba(249,255,0,1) 2%, rgba(195,198,59,1) 12%, rgba(255,215,0,1) 100%);
+}
+
+.jogador-2{
+    color: #121212;
+    padding: 30px;
+}
+.jogador-2 .jogador-text{
+    position: relative;
+    top: -15px;
+}
